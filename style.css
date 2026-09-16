@@ -1,0 +1,158 @@
+h1 {
+    color: white;
+    font-size: 40px;
+    text-align: center;
+}
+
+body {
+    padding: 20px;
+    background-color: #fff8f0;
+    font-family: Arial, sans-serif;
+}
+
+main {
+    max-width: 1000px;
+    margin: 0 auto;
+    background-color: white;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+    border-radius: 15px;
+    padding: 30px;
+}
+
+header {
+    background-color: #c62828;
+    color: white;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+header div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h2 {
+    color: #c62828;
+    margin-top: 30px;
+}
+
+li {
+    margin-bottom: 15px;
+}
+
+strong {
+    font-size: 20px;
+}
+
+em {
+    color: #666;
+}
+
+ol li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ol li span {
+    color: #c62828;
+    font-weight: bold;
+}
+
+table {
+    width: 100%;
+    margin-top: 15px;
+    border-collapse: collapse;
+}
+
+td {
+    padding: 8px;
+}
+
+td span {
+    color: #555;
+    float: right;
+}
+
+.special-offers li {
+    margin-bottom: 10px;
+    background-color: #fff3e0;
+    padding: 10px;
+    border-radius: 8px;
+}
+/* Responsive Design */
+
+@media (max-width: 768px) {
+
+    body {
+        padding: 10px;
+    }
+
+    header {
+        padding: 20px;
+    }
+
+    h1 {
+        font-size: 32px;
+    }
+
+    main {
+        padding: 20px;
+    }
+
+    ol li {
+        align-items: flex-start;
+    }
+
+    strong {
+        font-size: 18px;
+    }
+
+    em {
+        font-size: 14px;
+    }
+
+}
+@media (max-width: 480px) {
+
+    body {
+        padding: 5px;
+    }
+
+    header {
+        padding: 15px;
+    }
+
+    h1 {
+        font-size: 28px;
+    }
+
+    main {
+        padding: 15px;
+    }
+
+    ol {
+        padding-left: 25px;
+    }
+
+    ol li {
+        gap: 10px;
+    }
+
+    em {
+        font-size: 13px;
+    }
+
+    ol li span {
+        white-space: nowrap;
+    }
+
+    .special-offers li {
+        width: auto;
+    }
+
+}
