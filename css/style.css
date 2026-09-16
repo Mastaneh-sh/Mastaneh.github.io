@@ -75,5 +75,6 @@ h1,h2{
     .profile-image {
         width: 180px;
         height: 180px;
+        order: -1;
     }
 }
